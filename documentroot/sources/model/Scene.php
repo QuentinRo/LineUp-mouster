@@ -67,7 +67,7 @@ class Scene implements iPersistable
 
         $this->id = $id;
         $this->name =$Name;
-        $this->localization = $localisation;
+        $this->localization = $Localisation;
     }
 
     /**

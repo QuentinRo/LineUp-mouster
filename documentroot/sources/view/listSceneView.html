@@ -4,9 +4,9 @@
 
 
 <table>
-    <thead><th>Artiste</th><th>Style</th></thead>
+    <thead><th>Artiste</th><th>Localisation</th></thead>
     <?php foreach($scenes as $scene){ ?>
-    <tr><td><a href="?page=vscene&id=<?= $scene['id']?>"><?= $scene['Name'] ?></a></td><td><?= $scene['Location'] ?></td></tr>
+    <tr><td><a href="?page=vscene&id=<?= $scene['id']?>"><?= $scene['Name'] ?></a></td><td><?= $scene['Localisation'] ?></td></tr>
     <?php } ?>
 
     <!-- liste des scenes dispo -->

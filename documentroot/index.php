@@ -24,6 +24,7 @@ switch ($page)
         break;
     case 'view':
     case 'preview':
+    case 'modifScene':
         if (isset($_GET["id"]))
     $artistId = $_GET["id"];
 else
